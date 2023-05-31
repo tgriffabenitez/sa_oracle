@@ -44,7 +44,10 @@ Luego, actualiza la tabla `employees` con los valores proporcionados en los par�
 Después de la actualización, se calcula la diferencia entre el nuevo salario proporcionado (l_sal) o el salario existente y el antiguo salario (oldsalary). Esta diferencia se asigna al parámetro de salida l_salarychange.
 
 ## Implementación
-![imagen1](bdms_output.png)
+Primero se selecciono a la empleada con id = 146
+![inicio](antes.png)
 
+Luego, se modificaron algunos de los valores de la empleada con id = 146
+![fin](despues.png)
 ## Servicio Rest
 ![imagen2](servicio_rest.png)

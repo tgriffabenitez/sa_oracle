@@ -8,7 +8,7 @@ DECLARE
     L_SALARYCHANGE NUMBER;
     
 BEGIN
-    L_EMPNO := 147;
+    L_EMPNO := 101;
     L_JOB := 'SA_MAN';
     L_MGR := 100;
     L_SAL := 25000;
@@ -30,3 +30,5 @@ BEGIN
     :L_SALARYCHANGE := L_SALARYCHANGE;
 --rollback; 
 END;
+
+select * from employees where employee_id=100;
